@@ -127,8 +127,17 @@ echo "\n";
 
 // 6. Stampare la tabellina del 3 con for e while. // da fare //
 
-for($i = 0; $i <= 10; $i++);
-echo "(3 x $i)";
+
+for($i = 0; $i <= 10; $i++) {
+echo "(3 x $i) = ". 3 * $i ." \n";
+}
+    
+$i = 0;
+    
+while($i <= 10) {
+    echo "(3 x $i) = ". 3 * $i ." \n";
+    $i++;
+}
 
 echo "\n";
 
